@@ -15,7 +15,7 @@ public class PlinkoGameManager : MonoBehaviour
     [SerializeField] private float _velocidad = 8f;
 
     [Header("Punto de Parada y Random Caída")]
-    [SerializeField] private float xParada = -10f;           // donde empieza el random (se multiplica × -1)
+    [SerializeField] private float xParada = -10f;           
     [SerializeField][Range(-10f, 10f)] private float minVelCaida = -8f;
     [SerializeField][Range(-10f, 10f)] private float maxVelCaida = 8f;
 
